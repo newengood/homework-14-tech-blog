@@ -14,7 +14,9 @@
     <a href="/">Home</a>
     <a href="/dashboard">Dashboard</a>
     <a href="/login">Login</a>
+    {{#if logged_in}}
     <button class="no-button" id="logout">Logout</button>
+    {{/if}}
   </div>
   <div class="display">
     <p id="currentTab">Current Tab</p>

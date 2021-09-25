@@ -1,0 +1,29 @@
+<h2>{{post.title}}</h2>
+  <p hidden id="post_id">{{post.id}}</p>
+  <p>Created by {{post.user.username}} on {{format_date post.date_created}}</p>
+  <p>{{post.content}}</p>
+  <form class="form delete-form">
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">Delete Post</button>
+    </div>
+  </form>
+  <form class="form post-form">
+      <div class="form-group">
+        <label for="update-post">Update Post:</label>
+        <input class="form-input" type="text" id="update-post" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">Update</button>
+      </div>
+  </form>
+{{#if post.comments}}
+<h2>Comments</h2>
+{{#each post.comments as |comment|}}
+        <p>{{comment.content}}</p>
+    <p>Created on {{format_date comment.date_created}}</p>
+    <p>By user {{comment.user_id}}</p>
+{{/each}}
+{{/if}}
+
+
+<script src="../js/mypost.js"></script>

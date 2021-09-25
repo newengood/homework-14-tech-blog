@@ -1154,6 +1154,17 @@ form .form-input.form-input-squared {
   border-radius: 0;
 }
 
+.form-input-comment {
+  width: 100%;
+  padding: 5 rem;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  margin: 0.625rem 0;
+  font-size: 1.2rem;
+  border: 1px solid #484848;
+  border-radius: 0.3rem;
+}
+
 form [type='checkbox'],
 form [type='radio'] {
   display: inline-block;

@@ -3,20 +3,12 @@ module.exports = {
     // Format date as MM/DD/YYYY
     return date.toLocaleDateString();
   },
-  format_amount: (amount) => {
-    // format large numbers with commas
-    return parseInt(amount).toLocaleString();
+  is_equal: (v1, v2) => {
+    if( v1 === v2) {
+      return true;
+    } return false;
   },
-  get_emoji: () => {
-    const randomNum = Math.random();
-
-    // Return a random emoji
-    if (randomNum > 0.7) {
-      return `<span for="img" aria-label="lightbulb">💡</span>`;
-    } else if (randomNum > 0.4) {
-      return `<span for="img" aria-label="laptop">💻</span>`;
-    } else {
-      return `<span for="img" aria-label="gear">⚙️</span>`;
-    }
-  },
+  get_id: () => {
+    return sessionStorage.getItem('user_id');
+  }
 };
