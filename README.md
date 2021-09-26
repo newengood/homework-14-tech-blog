@@ -17,7 +17,7 @@
 
 ## Installation
 
-* Clone the repository, install dependencies, populate .env file with credentials, create database through schema.sql file, seed using command "npm run seed", start server using "npm start"
+* Clone the repository, install dependencies, create database using schema.sql file wiht command "source schema.sql", seed using command "npm run seed", start server using "npm start"
 
 ## Usage
 
