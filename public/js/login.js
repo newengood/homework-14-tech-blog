@@ -1,3 +1,5 @@
+// handle login form
+
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
@@ -22,6 +24,8 @@ const loginFormHandler = async (event) => {
   }
 };
 
+//handle signup form
+
 const signupFormHandler = async (event) => {
   event.preventDefault();
 
@@ -43,6 +47,8 @@ const signupFormHandler = async (event) => {
     }
   }
 };
+
+// grab html elements
 
 document
   .querySelector('.login-form')

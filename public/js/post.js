@@ -1,3 +1,7 @@
+// this script is loaded when the post selected is not create by the logged in user
+
+// handle create post form
+
 const postFormHandler = async (event) => {
   event.preventDefault();
 
@@ -22,6 +26,8 @@ const postFormHandler = async (event) => {
     }
   }
 };
+
+// grab html elements
 
 document
 .querySelector('.post-form')

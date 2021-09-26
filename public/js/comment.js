@@ -1,3 +1,5 @@
+// handle comment form
+
 const commentFormHandler = async (event) => {
     event.preventDefault();
   
@@ -21,6 +23,8 @@ const commentFormHandler = async (event) => {
       }
     }
   };
+
+// select html elements
 
 document
   .querySelector('.comment-form')

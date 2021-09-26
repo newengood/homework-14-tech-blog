@@ -1,3 +1,7 @@
+// this script loads when the post select is create by the logged in user
+
+// handle create post form
+
 const postFormHandler = async (event) => {
   event.preventDefault();
 
@@ -22,6 +26,8 @@ const postFormHandler = async (event) => {
   }
 };
 
+// handle delete post form
+
 const deleteFormHandler = async (event) => {
   event.preventDefault();
 
@@ -42,6 +48,8 @@ const deleteFormHandler = async (event) => {
     }
   }
 };
+
+// grab html elements
 
 document
   .querySelector('.post-form')

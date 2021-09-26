@@ -1,14 +1,17 @@
 [
   {
     "title": "MVC with handlebars",
-    "content": "Handlebars is a simple templating language.It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions."
+    "content": "Handlebars is a simple templating language.It uses a template and an input object to generate HTML or other text formats. Handlebars templates look like regular text with embedded Handlebars expressions.",
+    "user_id": "1"
   },
   {
     "title": "VS Code",
-    "content": "Visual Studio Code is an integrated development environment made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git"
+    "content": "Visual Studio Code is an integrated development environment made by Microsoft for Windows, Linux and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git",
+    "user_id": "2"
   },
   {
     "title": "Mac OS Big Sur",
-    "content": "macOS Big Sur is the 17th and current major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference on June 22, 2020, and was released to the public on November 12."
+    "content": "macOS Big Sur is the 17th and current major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference on June 22, 2020, and was released to the public on November 12.",
+    "user_id": "3"
   }
 ]

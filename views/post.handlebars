@@ -1,3 +1,5 @@
+{{!-- post template for viewers --}}
+
 <h2>{{post.title}}</h2>
   <p hidden id="post_id">{{post.id}}</p>
   <p>Created by {{post.user.username}} on {{format_date post.date_created}}</p>
@@ -16,8 +18,7 @@
       <h2>Comments</h2>
       {{#each post.comments as |comment|}}
         <p>{{comment.content}}</p>
-        <p>Created on {{format_date comment.date_created}}</p>
-       <p>By user {{comment.user_id}}</p>
+        <p>Commented on {{format_date comment.date_created}} by user {{comment.user_id}}</p>
       {{/each}}
     {{/if}}
 
